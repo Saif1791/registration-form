@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Reg form</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.0/css/line.css"
+    />
+  </head>
+  <body>
+    <div class="navbar-container">
+    <nav> 
+      <ul>
+          <li><a href="/templates/home.html">Home</a></li>
+          <li><a href="/templates/events.html">Events</a></li>
+          <li><a href="/templates/team.html">Team</a></li>
+          <li><a href="/templates/blog.html">Blog</a></li>
+          <li><a href="/templates/register.html">Register</a></li>
+          <li><a href="/templates/aboutus.html">About Us</a></li>
+      </ul> 
+  </nav>
+</div>
+    <div class="container">
+      <header>Registration</header>
+
+      <form action="#">
+        <div class="form first">
+          <div class="details personal">
+            <span class="title">Team Regisration</span>
+
+            <div class="fields">
+              <div class="input-field">
+                <label>Team Name</label>
+                <input
+                  type="text"
+                  placeholder="Enter your team's name"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Team Member 1</label>
+                <input
+                  type="text"
+                  placeholder="Enter team member1 name"
+                  required
+                />
+              </div>
+              <div class="input-field">
+                <label>Member 1 Department</label>
+                <input type="text" placeholder="Enter Department" required />
+              </div>
+              <div class="input-field">
+                <label>RRN</label>
+                <input
+                  type="text"
+                  placeholder="Enter RRN of team member 1"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Year of Study</label>
+                <select required>
+                  <option disabled selected>Year of Study</option>
+                  <option>I</option>
+                  <option>II</option>
+                  <option>III</option>
+                  <option>IV</option>
+                  <option>V</option>
+                </select>
+              </div>
+
+              <div class="input-field">
+                <label>Team Member 2</label>
+                <input type="text" placeholder="Enter name" required />
+              </div>
+              <div class="input-field">
+                <label>Member 2 Department</label>
+                <input type="text" placeholder="Enter  Department" required />
+              </div>
+              <div class="input-field">
+                <label>RRN</label>
+                <input type="text" placeholder="Enter RRN" required />
+              </div>
+
+              <div class="input-field">
+                <label>Year of Study</label>
+                <select required>
+                  <option disabled selected>Year of Study</option>
+                  <option>I</option>
+                  <option>II</option>
+                  <option>III</option>
+                  <option>IV</option>
+                  <option>V</option>
+                </select>
+              </div>
+              <div class="input-field">
+                <label>Problem Statement</label>
+                <input type="text" placeholder="Problem Statement Number" required />
+              </div>
+            </div>
+          </div>
+
+          <div class="details ID">
+            <span class="title">Contact Details</span>
+
+            <div class="fields">
+              <div class="input-field">
+                <label>Team head</label>
+                <input
+                  type="text"
+                  placeholder="Enter team head name"
+                  required
+                />
+              </div>
+
+              <div class="input-field">
+                <label>Phone Number</label>
+                <input type="tel" placeholder="Enter Phone number" required />
+              </div>
+
+              <div class="input-field">
+                <label>Email</label>
+                <input type="email" placeholder="Enter Email" required />
+              </div>
+
+              <div class="buttons">
+                <button class="sumbit">
+                  <span class="btnText">Submit</span>
+                  <i class="uil uil-navigator"></i>
+                </button>
+              </div>
+            </div>
+          </div>
+        </div>
+      </form>
+    </div>
+
+    <script src="index.js" async defer></script>
+  </body>
+</html>
